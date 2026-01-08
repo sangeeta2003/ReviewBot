@@ -1,0 +1,57 @@
+# =================================
+# General OS & Editor files
+# =================================
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# =================================
+# Node.js dependencies (both backend & frontend)
+# =================================
+**/node_modules/
+
+# =================================
+# Environment files (do NOT commit secrets)
+# =================================
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+
+# =================================
+# Logs
+# =================================
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =================================
+# Build / Output folders
+# =================================
+frontend/build/
+frontend/.cache/
+frontend/.next/
+frontend/.parcel-cache/
+
+backend/dist/
+backend/out/
+
+# =================================
+# Testing / Coverage
+# =================================
+**/coverage
+**/jest.config.js.snap
+
+# =================================
+# Locks (optional if you want team-wide consistency)
+# =================================
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
