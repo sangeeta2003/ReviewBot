@@ -14,7 +14,6 @@ Thumbs.db
 # =================================
 **/node_modules/
 
-
 # =================================
 # Environment files (do NOT commit secrets)
 # =================================
@@ -36,6 +35,7 @@ yarn-error.log*
 # =================================
 # Build / Output folders
 # =================================
+frontend/dist/
 frontend/build/
 frontend/.cache/
 frontend/.next/
@@ -53,6 +53,7 @@ backend/out/
 # =================================
 # Locks (optional if you want team-wide consistency)
 # =================================
-**/package-lock.json
-**/yarn.lock
-**/pnpm-lock.yaml
+# Uncomment if you want to ignore lock files
+# **/package-lock.json
+# **/yarn.lock
+# **/pnpm-lock.yaml
